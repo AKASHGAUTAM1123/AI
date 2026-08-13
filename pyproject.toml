@@ -16,4 +16,5 @@ members = [
     "week2/day7.py",
     "week2/day8",
     "week2/day9",
+    "week2/hiremeai",
 ]
