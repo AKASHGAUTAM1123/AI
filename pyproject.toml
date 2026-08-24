@@ -19,4 +19,5 @@ members = [
     "week2/hiremeai",
     "week3/day11rag",
     "week3/day12",
+    "week3/day13",
 ]

@@ -6,6 +6,7 @@ requires-python = ">=3.13"
 members = [
     "day11rag",
     "day12",
+    "day13",
     "day2",
     "day4",
     "day5",
@@ -157,6 +158,25 @@ source = { virtual = "week3/day11rag" }
 name = "day12"
 version = "0.1.0"
 source = { virtual = "week3/day12" }
+dependencies = [
+    { name = "groq" },
+    { name = "numpy" },
+    { name = "python-dotenv" },
+    { name = "sentence-transformers" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "groq", specifier = ">=1.6.0" },
+    { name = "numpy", specifier = ">=2.5.2" },
+    { name = "python-dotenv", specifier = ">=1.2.2" },
+    { name = "sentence-transformers", specifier = ">=5.7.0" },
+]
+
+[[package]]
+name = "day13"
+version = "0.1.0"
+source = { virtual = "week3/day13" }
 dependencies = [
     { name = "groq" },
     { name = "numpy" },
